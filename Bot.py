@@ -92,8 +92,7 @@ def askDeepseek(question):
 @bot.message_handler(commands=['start'])
 def start(message):
 
-    welcome_text = "Это бот-дипсик. Задай вопрос и получи ответ."
-    "Используй команду /ai и напиши вопрос."
+    welcome_text = "Это бот-дипсик. Задай вопрос и получи ответ.Используй команду /ai и напиши вопрос."
     bot.send_message(message.chat.id, welcome_text)
 
 
